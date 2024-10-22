@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #222222;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.dancing-font {
+    font-family: "Dancing Script", cursive;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* common style */
+.d-flex {
+    display: flex;
+}
+
+.primary-color {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.primary-btn {
+    background-color: #E6533C;
+    padding: 16px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.secoudary-btn {
+    background: none;
+    padding: 16px 40px;
+    border: 1px solid #FFF;
+    border-radius: 42px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* header style */
+header {
+    margin-top: 20px;
+}
+
+/* navbar style */
+nav {
+    justify-content: space-between;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 36px;
+    font-style: italic;
+    color: #E6533C;
+}
+
+.hamburger-menu {
+    display: none;
+    width: 20%;
+    height: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 67px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* banner style start here */
+.banner-container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-description {
+    margin-bottom: 28px;
+}
+
+.join-btn {
+    gap: 14px;
+}
+
+/* mobile responsive */
+@media screen and (max-width:576px) {
+
+    .nav,
+    .banner-container,
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
