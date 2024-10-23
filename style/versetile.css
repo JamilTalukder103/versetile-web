@@ -8,7 +8,7 @@
 }
 
 .web-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: #222222;
     color: #fff;
@@ -145,11 +145,33 @@ nav ul li {
     margin-top: 56px;
 }
 
-.card {}
+.card h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
 
 .card img {
     width: 70%;
     border-radius: 50%;
+}
+
+/* run extra mile section style */
+.run-container {}
+
+.run-img {
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 180px;
+}
+
+.run-description {
+    margin: 14px 0;
+}
+
+.run-title {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 /* mobile responsive */
@@ -157,7 +179,8 @@ nav ul li {
 
     .nav,
     .banner-container,
-    .nav-links {
+    .nav-links,
+    .run-container {
         flex-direction: column;
     }
 
@@ -171,6 +194,13 @@ nav ul li {
 
     .card-container {
         grid-template-columns: 1fr;
+    }
+
+    .run-img {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 30px;
+
     }
 
     .div-center {
