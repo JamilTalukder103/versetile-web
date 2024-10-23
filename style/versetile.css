@@ -26,6 +26,19 @@
     display: flex;
 }
 
+section {
+    margin-bottom: 100px;
+}
+
+.div-center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .primary-color {
     color: rgba(255, 255, 255, 0.50);
     font-size: 16px;
@@ -93,10 +106,12 @@ nav ul li {
     font-size: 4rem;
     font-weight: 400px;
     margin-bottom: 20px;
+
 }
 
 .banner-img {
     width: 100%;
+    height: 500px;
 }
 
 .banner-description {
@@ -105,6 +120,36 @@ nav ul li {
 
 .join-btn {
     gap: 14px;
+}
+
+
+/* chamge your habit section start */
+.change-habit {
+    margin-top: 100px;
+}
+
+.habit-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.habit-content {
+    margin-top: 30px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 41px;
+    margin-top: 56px;
+}
+
+.card {}
+
+.card img {
+    width: 70%;
+    border-radius: 50%;
 }
 
 /* mobile responsive */
@@ -122,5 +167,13 @@ nav ul li {
 
     .hamburger-menu {
         display: block;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .div-center {
+        width: 100%;
     }
 }
