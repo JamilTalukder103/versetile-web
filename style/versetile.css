@@ -124,7 +124,7 @@ nav ul li {
     right: -30px;
     background-color: #818486;
     opacity: 0.9;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -134,7 +134,7 @@ nav ul li {
     bottom: 80px;
     background-color: #818486;
     opacity: 0.9;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 
 }
@@ -428,5 +428,10 @@ select {
 
     .service-container {
         padding-left: 0;
+    }
+
+    .primary-btn,
+    .secoudary-btn {
+        padding: 1s6px 20px;
     }
 }
