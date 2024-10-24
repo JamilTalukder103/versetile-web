@@ -263,7 +263,8 @@ nav ul li {
         grid-template-columns: 1fr;
     }
 
-    .run-img {
+    .run-img,
+    .card img {
         margin: 0 auto;
         width: 100%;
         margin-top: 30px;
