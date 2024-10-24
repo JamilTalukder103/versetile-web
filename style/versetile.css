@@ -213,6 +213,80 @@ nav ul li {
     margin-bottom: 14px;
 }
 
+.calculator-container {
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+.bmi-chart {
+    width: 40%;
+}
+
+.calculate-bmi {
+    width: 60%;
+}
+
+.chart-title,
+.calculate-title {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi,
+.weight-status {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 67px;
+}
+
+.bmi-details {
+    list-style: none;
+    margin-top: 27px;
+}
+
+.bmi-details li {
+    margin-top: 11px;
+}
+
+.calulate-details {
+    gap: 50px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.input-box {
+    width: 50%;
+    flex: 1;
+}
+
+.input-box input {
+    background: none;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    margin-top: 20px;
+}
+
+select {
+    background: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.activity {
+    width: 70%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.calculate {
+    margin-top: 20px;
+}
+
 /* footer container */
 .footer-container {
     display: grid;
@@ -255,12 +329,22 @@ nav ul li {
     .nav,
     .banner-container,
     .nav-links,
-    .run-container {
+    .run-container,
+    .calculator-container {
         flex-direction: column;
     }
 
     .nav-links {
         display: none;
+    }
+
+    .bmi-chart {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
     }
 
     .hamburger-menu {
