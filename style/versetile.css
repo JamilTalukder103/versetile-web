@@ -313,7 +313,7 @@ select {
 }
 
 /* buit-to-bring */
-.buit-img {
+.buit-img img {
     width: 100%;
 }
 
@@ -326,6 +326,7 @@ select {
 .buit-to-bring {
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
 }
 
 /* footer container */
@@ -419,7 +420,8 @@ select {
         width: 100%;
     }
 
-    .team-container img {
+    .team-container img,
+    .buit-img img {
         width: 100%;
         margin: 0 auto;
     }
