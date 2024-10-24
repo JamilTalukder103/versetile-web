@@ -271,7 +271,12 @@ nav ul li {
     }
 
     .card img {
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-title {
+        font-size: 50px;
     }
 
     .div-center {
