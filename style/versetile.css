@@ -210,6 +210,36 @@ nav ul li {
     font-weight: 900;
 }
 
+/* footer container */
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.footer-container li {
+    list-style: none;
+}
+
+
+.service-container {
+    padding-left: 100px;
+}
+
+.service-container h4 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.service {
+    margin-top: 30px;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+
 /* mobile responsive */
 @media screen and (max-width:576px) {
 
@@ -229,7 +259,8 @@ nav ul li {
     }
 
     .card-container,
-    .team-container {
+    .team-container,
+    .footer-container {
         grid-template-columns: 1fr;
     }
 
@@ -242,5 +273,9 @@ nav ul li {
 
     .div-center {
         width: 100%;
+    }
+
+    .service-container {
+        padding-left: 0;
     }
 }
