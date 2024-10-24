@@ -190,9 +190,9 @@ nav ul li {
 .team-container img {
     width: 100%;
     height: 300px;
-    border-radius: 18px;
+    border-radius: 20px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
-    border-radius: 15px;
+
 
 }
 
@@ -281,6 +281,11 @@ nav ul li {
 
     .div-center {
         width: 100%;
+    }
+
+    .team-container img {
+        width: 80%;
+        margin: 0 auto;
     }
 
     .service-container {
